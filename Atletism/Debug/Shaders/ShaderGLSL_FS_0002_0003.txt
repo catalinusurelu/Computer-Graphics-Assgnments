@@ -1,0 +1,34 @@
+#version 330
+layout(location = 0) out vec4 out_color;
+
+uniform vec3 light_position;
+uniform vec3 eye_position;
+uniform int material_shininess;
+uniform vec3 material_kd;
+uniform vec3 material_ks;
+
+in vec3 world_pos;
+in vec3 world_normal;
+
+
+vec3 L;
+vec3 V;
+vec3 H;
+
+void main(){
+	
+	vec3 color = vec3(0, 0, 0);
+	
+	L = normalize ( light_position - world_pos); 
+	V = normalize  ( eye_position - world_pos);
+	H = normalize(L + V);
+
+	vec3 ambient = vec3(0.1, 0.1, 0.1);
+	int get_color = (dot(world_normal, L)> 0) ? 1 : 0;
+	vec3 dif = material_kd * max(dot(world_normal, L), 0);
+	vec3 spec = material_ks * get_color * pow((max(dot(world_normal, H), 0)), material_shininess);
+
+	color = ambient + dif + spec;
+
+	out_color = vec4(color.x, color.y, color.z, 1);
+} 

@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Car" Collapsed="true">
+    <Position X="1.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAIAQEQEAIAAAAAAAAAABAAAAAAAAAAAI=</HashCode>
+      <FileName>Car.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Movable" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgAAAAQAAAAMACEAACIAAAAAAQhAQBgAAgICACAAAA=</HashCode>
+      <FileName>Movable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Obstacle" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAIAAEAAAIAAAAAAAAAABAEAAACAAAAAA=</HashCode>
+      <FileName>Obstacle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhysicsEngine" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAACAQAAAAAEACAAAQAECAABAACQCAAEAAA=</HashCode>
+      <FileName>PhysicsEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAIgAEABAIAAAAAAIAAABAAAAAAQAAARA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PowerUp" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgABAAAAIIAEAAAIAAAAAAAAAABAAAAAAQAAAAA=</HashCode>
+      <FileName>PowerUp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Road" Collapsed="true">
+    <Position X="8.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAQAYEAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Road.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoadStripes" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAIAAEAAAIIFAAAIAAAADBAAAEAgIABgA=</HashCode>
+      <FileName>RoadStripes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitCube" Collapsed="true">
+    <Position X="8.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAEAAACAAAAAA=</HashCode>
+      <FileName>UnitCube.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wheel" Collapsed="true">
+    <Position X="6.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAIAAAAAAAAAAAAAAAAAAAAAAIQQAAAAAAAABA=</HashCode>
+      <FileName>Wheel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Circle2D" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Framework\Circle2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Color" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAIAQABgAAAAAA=</HashCode>
+      <FileName>Framework\Color.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawingWindow" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACYwAjACEIgYAAeAQQBAhwDARAAAkBIiCAUCABCIAQA=</HashCode>
+      <FileName>Framework\DrawingWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Line2D" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAQAAAAAA=</HashCode>
+      <FileName>Framework\Line2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Object2D" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAMACAAAAAAAAAAAAAAAAEAAABAACAAAgAAAAAAAA=</HashCode>
+      <FileName>Framework\Object2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Face" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Framework\Object3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Object3D" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAEAAAAAAAAAAAAAAAAAAAAAAQAACAAQgAAACAAAA=</HashCode>
+      <FileName>Framework\Object3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Point2D" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAIAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>Framework\Point2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Point3D" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAAAAAAAAAAAAAAAAAAAABgAQAAAAA=</HashCode>
+      <FileName>Framework\Point3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Polygon2D" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Framework\Polygon2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rectangle2D" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Rectangle2d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Text" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAEAAAAAAAAAAAAAAAAIAAAAAAAACIAAAACAAAAAA=</HashCode>
+      <FileName>Framework\Text.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Transform2D" Collapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgBAAQAgAAAAAAgAAECAAAAAIAAAAAAAAAAI=</HashCode>
+      <FileName>Framework\Transform2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Transform3D" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAASAAAACAAAIgBAAAQQggAACAQAAAABAAAQGgAggI=</HashCode>
+      <FileName>Framework\Transform3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visual2D" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>nAAAgAAAAAEIAIDACAACAAAYAgRoAAAAEAAAAQCAEBI=</HashCode>
+      <FileName>Framework\Visual2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="Components" Collapsed="true">
+    <Position X="12" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Movable.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Objects" Collapsed="true">
+    <Position X="13.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PhysicsEngine.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

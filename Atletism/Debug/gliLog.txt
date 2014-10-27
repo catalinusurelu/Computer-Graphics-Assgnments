@@ -1,0 +1,9 @@
+GL Intercept Log. Version : 1.20    Compile Date: Jun  3 2013    Run on: Sun Dec 08 22:46:39 2013
+
+===================================================
+Diagnostic: Unknown function glClearDepthfOES being logged.
+Diagnostic: Unknown function glClipPlanefOES being logged.
+Diagnostic: Unknown function glDepthRangefOES being logged.
+Diagnostic: Unknown function glFrustumfOES being logged.
+Diagnostic: Unknown function glGetClipPlanefOES being logged.
+Diagnostic: Unknown function glOrthofOES being logged.
